@@ -41,11 +41,11 @@
 <form class="form" style=" text-align: center; color:white;" action="login">
   <div class="form-group">
     <label for="exampleFormControlInput1" style="font-size: 20px;">Username</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Shekhar_Arya" name="username">
+    <input type="text" required="required" class="form-control" id="exampleFormControlInput1" placeholder="Shekhar_Arya" name="username">
   </div>
   <div class="form-group">
     <label for="exampleFormControlSelect1" style="font-size: 20px;">Password</label>
-    <input type="text" class="form-control" id="exampleFormControlSelect1" placeholder="Xyz@abc" name="password"> 
+    <input type="text" required="required" class="form-control" id="exampleFormControlSelect1" placeholder="Xyz@abc" name="password"> 
   </div>
   <div class="form-group">
   <button class="btn btn-outline-success col-md-6" type="submit" style="color: white; border-width: 3px; text-align: center;">Sign In</button>
@@ -110,19 +110,19 @@
 	<form action="joinus" class="form" style="margin-left: 100px; text-align: center;">
   <div class="form-group col-md-6">
     <label for="exampleFormControlInput1">Email address</label>
-    <input type="text" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <input type="text" name="email" required="required" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
   </div>
   <div class="form-group col-md-6">
     <label for="exampleFormControlInput1">Phone Number</label>
-    <input type="text" name="phonenumber" class="form-control" id="exampleFormControlInput1" placeholder="1234567890">
+    <input type="text" name="phonenumber" required="required" class="form-control" id="exampleFormControlInput1" placeholder="1234567890">
   </div>
     <div class="form-group col-md-6">
     <label for="exampleFormControlInput1">Adhar Card</label>
-    <input type="text" name="adharnumber" class="form-control" id="exampleFormControlInput1" placeholder="111 2222 3333">
+    <input type="text" name="adharnumber" required="required" class="form-control" id="exampleFormControlInput1" placeholder="111 2222 3333">
   </div>
   <div class="form-group col-md-6">
     <label for="exampleFormControlTextarea1">Address</label>
-    <textarea class="form-control" name="address" id="exampleFormControlTextarea1" rows="3" placeholder="write address here"></textarea>
+    <textarea class="form-control" required="required" name="address" id="exampleFormControlTextarea1" rows="3" placeholder="write address here"></textarea>
   </div>
   <div class="form-group col-md-6">
   <button class="btn btn-outline-success col-md-6" type="submit" style="color: white; border-width: 3px; text-align: center;">Submit</button>
